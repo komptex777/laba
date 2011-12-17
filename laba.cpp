@@ -1275,7 +1275,7 @@ root=new V;
 
 
 
-//if (root==NULL) {printf("memory allocation have been failed "); return 1;}
+
 
  /*  // output test
 
@@ -1330,7 +1330,7 @@ root=new V;
  upd_v(root->m);
  */
 
-  /*
+
 
  addV(6,root);
  addV(8,root);
@@ -1341,14 +1341,14 @@ root=new V;
 
  addV(15,root);
 
-
-
+go_left(root);
+printf("all ok\n");
 
 delV(18,root);
 
 
-
-
+go_left(root);
+printf("all ok\n");
 
 delV(8,root);
 
@@ -1359,11 +1359,16 @@ delV(14,root);
 
 go_left(root);
 
- */
 
 
+/*
+go_left(root);
+int i=0;
+while()
+{
 
-
+}
+*/
 
 printf("all ok\n");
 
